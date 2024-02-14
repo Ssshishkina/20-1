@@ -1,0 +1,242 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Овощи",
+      "description": "свежие овощи"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "фрукты",
+      "description": "свежие фрукты"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "трикотаж",
+      "description": "домашний трикотаж"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "игрушки",
+      "description": "детские игрушки"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "огурцы",
+      "description": "свежие",
+      "image": "",
+      "category": 1,
+      "price": 200,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "помидоры",
+      "description": "вяленые",
+      "image": "",
+      "category": 1,
+      "price": 500,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "лук",
+      "description": "свежий",
+      "image": "",
+      "category": 1,
+      "price": 20,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "мяч",
+      "description": "прыгучий",
+      "image": "",
+      "category": 4,
+      "price": 42,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "барабан",
+      "description": "громкий",
+      "image": "",
+      "category": 4,
+      "price": 250,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "кукла",
+      "description": "барби принцесса",
+      "image": "",
+      "category": 4,
+      "price": 800,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Три кота",
+      "description": "мягкая игрушка",
+      "image": "",
+      "category": 4,
+      "price": 1200,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "носки",
+      "description": "мужские",
+      "image": "",
+      "category": 3,
+      "price": 60,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "футболка",
+      "description": "белая",
+      "image": "",
+      "category": 3,
+      "price": 500,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "колготки",
+      "description": "детские розовые",
+      "image": "",
+      "category": 3,
+      "price": 80,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "name": "картофель",
+      "description": "свежий",
+      "image": "",
+      "category": 1,
+      "price": 80,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 13,
+    "fields": {
+      "name": "шапка",
+      "description": "вязаная",
+      "image": "",
+      "category": 3,
+      "price": 900,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 14,
+    "fields": {
+      "name": "яблоко",
+      "description": "свежее",
+      "image": "",
+      "category": 2,
+      "price": 70,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 15,
+    "fields": {
+      "name": "банан",
+      "description": "свежий",
+      "image": "",
+      "category": 2,
+      "price": 120,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 16,
+    "fields": {
+      "name": "ананас",
+      "description": "свежий",
+      "image": "",
+      "category": 2,
+      "price": 400,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 17,
+    "fields": {
+      "name": "персик",
+      "description": "консервированый",
+      "image": "",
+      "category": 2,
+      "price": 100,
+      "created_at": "2024-02-14",
+      "updated_at": "2024-02-14"
+    }
+  }
+]
